@@ -1,0 +1,5 @@
+export const SETJ = 'setj'
+export const ADDJ = 'addj'
+export const DELETEJ = 'deletej'
+export const DONEJ = 'donej'
+export const CHANGEJ = 'changej'

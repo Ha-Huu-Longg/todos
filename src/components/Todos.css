@@ -1,0 +1,89 @@
+input,
+button {
+   outline: none;
+}
+
+#todo-scope {
+   width: 40%;
+   background-color: antiquewhite;
+}
+
+#header-todo {
+   height: 80px;
+   background-color: rgb(81, 210, 139);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   color: white;
+}
+
+#input-scope {
+   width: 100%;
+   display: flex;
+   /* background-color: aqua; */
+   margin-top: 10px;
+}
+
+#container-input {
+   display: flex;
+   justify-content: space-between;
+   width: 450px;
+   margin: 0 auto;
+   /* background-color: rgb(222, 147, 54); */
+}
+
+#input-job {
+   width: 360px;
+   display: block;
+   padding: 5px 10px;
+   border: 1px solid black;
+   border-radius: 3px;
+   /*  */
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   hyphens: auto;
+   white-space: normal;
+}
+
+
+button {
+   display: block;
+   padding: 5px 20px;
+   border: 1px solid black;
+   border-radius: 3px;
+   margin-left: 10px;
+}
+
+.m-left {
+   margin-left: 10px;
+}
+
+.done {
+   text-decoration: line-through;
+}
+
+#list-scope {
+   width: 450px;
+   margin: 0 auto;
+}
+
+li {
+   display: flex;
+   padding: 5px 5px;
+}
+
+.work {
+   width: 300px;
+   word-wrap: break-word;
+   word-break: break-all;
+   text-align: center;
+}
+
+.btn {
+   display: flex;
+   flex-grow: 1;
+   background-color: brown;
+   justify-content: center;
+   align-items: center;
+}
